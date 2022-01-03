@@ -1,0 +1,35 @@
+.menu {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.item-menu {
+    padding: 1% 1% 1% 1%;
+}
+.item-menu .link{
+    color: black;
+}
+.menu .logo {
+    margin-left: 2%;
+}
+#botao-nav1{ 
+    float: right; 
+    text-decoration: none;      
+}
+#botao-nav1:hover{
+    background-color: rgb(1, 88, 1);
+}
+#botao-nav2:hover{
+    background-color: rgb(1, 88, 1);
+}
+#botao-nav2 {
+    float: right;   
+    top: 2%;
+    left: 30%;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+#a-menu{
+    color: white;
+    text-decoration: none;
+}
