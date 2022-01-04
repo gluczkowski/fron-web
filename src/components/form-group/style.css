@@ -1,0 +1,35 @@
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.fields input {
+    border: 1px solid #AAAAAA;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.container-content {
+    margin-top: 5%;
+}
+
+.botao {
+    margin-top: 10px;    
+}
+
+#botao-enviar {
+    margin-right: 5px;
+}
+
+#botao-cancelar:hover{
+    background-color: rgb(255, 251, 1);
+}
+
+

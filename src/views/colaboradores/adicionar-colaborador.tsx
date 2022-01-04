@@ -3,19 +3,16 @@ import Card from "../../components/card/card";
 
 import { useState } from "react";
 import './style.css';
-import { Form } from "antd";
+import FormGroup from "../../components/form-group/formGroup";
 
 
 const AdicionarColaborador = () => {
     
 
     return (
-        <>
-        <Form>
-              
-        </Form>           
-        </>
-        
+        <div>
+            <FormGroup/>
+        </div>        
     )
 }
 
