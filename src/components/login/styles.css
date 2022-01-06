@@ -1,0 +1,24 @@
+#botao-login{
+    margin-top: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+#formulario-login{    
+    margin-top: 50px;
+}
+
+#form-content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.div-geral {
+    float: right;
+    margin-top: 10%;        
+}

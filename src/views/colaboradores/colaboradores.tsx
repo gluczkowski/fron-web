@@ -3,13 +3,14 @@ import { fetchColaboradores } from "../../api";
 import Card from "../../components/card/card";
 import {Colaborador} from "./type"
 import ColaboradorList from "./ColaboradoresList";
+import { useParams } from "react-router-dom";
 
 type Props = {
     colaborador: Colaborador;
 }
 
 
-function Colaboradores (){ 
+const  Colaboradores = () => {     
     
     const [colaborador , setColaborador] = useState<Colaborador[]>([]);
 

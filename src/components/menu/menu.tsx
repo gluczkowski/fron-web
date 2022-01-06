@@ -9,7 +9,7 @@ function Menu(){
         <>
         <div className="menu">
             <div className="logo">
-            <img src={require('./logo-menu.png')} />
+            <Link to="/"><img src={require('./logo-menu.png')} /></Link>
             </div>
             <div className="menu">
                 <div className="item-menu">
